@@ -1,0 +1,36 @@
+
+<cookbook>
+	<collection>
+		<cuisine>Indian</cuisine>
+		<recipe id = "first">
+			<title>Sambar</title>
+			<date>21-Jan-2016</date>
+			<ingredient name = "Toor Dal" amount = "2" unit = "bowls" />
+			<ingredient name = "Sambar Masala" amount = "2" unit = "tablespoons" />
+			<ingredient name = "Raddish" amount = "" unit = "unit" />
+			<preparation>
+				<step>Make the Dal in the Cooker</step>
+				<step>Add Sambar Masala</step>
+				<step>Add Raddish slices</step>
+				<step>Let it cook for 15 Mins</step>
+			</preparation>
+			<comment>Best when served with Idli Dosa or Rice</comment>
+			<nutrition calories = "20" carbohydrates = "20" fat = "20" protein = "30" alcohol = "0"/>
+		</recipe>
+		<recipe id = "second">
+			<title>Rice</title>
+			<date>22-Feb-2016</date>
+			<ingredient name = "Basmati Rice" amount = "2" unit = "bowls" />
+			<ingredient name = "Ghee" amount = "2" unit = "spoons" />
+			<ingredient name = "Jeera" amount = "2" unit = "tablespoons" />
+			<preparation>
+				<step>Add rice to boiling water</step>
+				<step>Add ghee and Jeera</step>
+				<step>Cook with a lid on for 15-20 mins</step>
+			</preparation>
+			<comment>Best when served hot. For better flavour add a pice of cinnamon</comment>
+			<nutrition calories = "20" carbohydrates = "40" fat = "40" protein = "10" alcohol = "0"/>
+			<related ref = "first"/>
+		</recipe>
+	</collection>
+</cookbook>
